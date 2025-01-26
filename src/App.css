@@ -441,6 +441,10 @@
   .header_svglogo {
     display: none;
   }
+
+  .body_about p {
+    font-size: 20px !important;
+  }
   .body_contact_buttons {
     padding-top: 40%;
     display: flex;
