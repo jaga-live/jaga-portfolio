@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url(../src/Assets/Fonts/Helvetica.woff);
+}
+
+@font-face {
+  font-family: "Sohne Bold";
+  src: url(../src/Assets/Fonts/Sohne\ Bold.otf);
+}
+
+canvas {
+  position: fixed;
+  touch-action: none;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color: black !important;
+  overflow-x: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  --color-bg1: white;
+  --color-bg2: white;
+  --color1: 140, 100, 255;
+  --color2: 221, 74, 255;
+  --color3: 100, 220, 255;
+  --color4: 200, 50, 50;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  font-family: "Helvetica";
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-family: "Helvetica" !important;
+  color: black;
+  text-decoration: none;
+}
