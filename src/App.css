@@ -83,7 +83,7 @@
 }
 
 .body_about p {
-  font-size: 50px;
+  font-size: 50px !important;
 }
 
 .body_about h1 {
