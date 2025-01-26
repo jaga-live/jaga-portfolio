@@ -318,11 +318,11 @@ function Body() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="projects" className="body_projects section">
         {/* Projects */}
         <h1>Projects</h1>
       </div>
-      <div>
+      <div id="interests" className="body_interests section">
         <h1>Interests</h1>
         {/* Interests */}
       </div>
