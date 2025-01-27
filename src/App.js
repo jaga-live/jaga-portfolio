@@ -93,7 +93,7 @@ function Header() {
   return (
     <div className="main">
       <div className="body_about">
-        <h1>Jagadheesh M</h1>
+        <h1>Hey, I'm Jaga</h1>
         <p>Backend Developer</p>
       </div>
 
