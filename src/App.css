@@ -7,7 +7,7 @@
 .navbar {
   position: absolute;
   width: 100%;
-  color: black;
+  color: orange;
 }
 
 .body_container {
@@ -46,7 +46,7 @@
   position: relative;
   left: 1em;
   cursor: pointer;
-  color: rgb(228, 117, 250);
+  color: orange;
   top: -11px;
 }
 
@@ -61,6 +61,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.main {
+  background-color: #1c1d25;
+  padding-bottom: 7% !important;
+  color: white;
+}
+
+.main p {
+  color: white;
 }
 
 .body_contact_buttons {
@@ -90,6 +100,14 @@
   font-size: 50px !important;
 }
 
+.body_contact_buttons {
+  z-index: 50 !important;
+}
+
+.body_contact_buttons button {
+  color: white;
+}
+
 .body_about h1 {
   font-size: 80px !important;
 }
@@ -114,6 +132,7 @@
 
 .body_container h1 {
   font-size: 70px !important;
+  color: black;
 }
 
 .body_workexperience {
@@ -121,6 +140,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
 }
 
 .body_workexp_grid {
@@ -134,6 +154,7 @@
 
 .body_workexp_grid p {
   font-size: 15px;
+  color: black;
 }
 
 .nanban,
@@ -359,7 +380,7 @@
   position: absolute;
   background: radial-gradient(
       circle at center,
-      rgba(var(--color1), 0.3) 0,
+      rgba(var(--color1), 0.3) 10%,
       rgba(var(--color1), 0) 50%
     )
     no-repeat;
@@ -379,7 +400,7 @@
   position: absolute;
   background: radial-gradient(
       circle at center,
-      rgba(var(--color2), 0.3) 0,
+      rgba(var(--color2), 0.3) 30%,
       rgba(var(--color2), 0) 50%
     )
     no-repeat;
@@ -400,7 +421,7 @@
   position: absolute;
   background: radial-gradient(
       circle at center,
-      rgba(var(--color3), 0.3) 0,
+      rgba(var(--color3), 0.3) 30%,
       rgba(var(--color3), 0) 50%
     )
     no-repeat;
@@ -421,7 +442,7 @@
   position: absolute;
   background: radial-gradient(
       circle at center,
-      rgba(var(--color4), 0.3) 0,
+      rgba(var(--color4), 0.3) 30%,
       rgba(var(--color4), 0) 50%
     )
     no-repeat;
@@ -435,7 +456,7 @@
   transform-origin: calc(50% - 200px);
   animation: moveHorizontal 40s ease infinite;
 
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .section {
