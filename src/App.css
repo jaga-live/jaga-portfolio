@@ -374,6 +374,7 @@
   filter: url(#goo) blur(40px);
   width: 0px;
   height: 0px;
+  pointer-events: none;
 }
 
 .g1 {
@@ -482,12 +483,24 @@
     overflow-x: hidden;
   }
 
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    padding-bottom: 100% !important;
+  }
+
+  .body_workexperience h1 {
+    font-size: 50px !important;
+  }
+
   .g1,
   .g2,
   .g3,
   .g4 {
-    width: 100%;
-    height: 20%;
+    height: 50%;
   }
   .header_svglogo {
     width: 50% !important;
@@ -510,6 +523,7 @@
   .body_container {
     padding-top: 0%;
     margin-top: 0% !important;
+    z-index: 20;
   }
 
   .body_about p {
