@@ -2,16 +2,16 @@ id: 2
 name: frontend
 
 environment:
-  NODE_ENV: qa
-  NODE_VERSION: 22
+  - NODE_ENV: qa
+  - NODE_VERSION: 22
 
 stages:
-  stage:
-    name: Install node dependecies
-    cmd: npm i
-  stage:
-    name: Build
-    cmd: npm build
-  stage:
-    name: Console
-    cmd: echo "Hello World!"
+  - stage:
+      name: Install node dependecies
+      cmd: npm i
+  - stage:
+      name: Build
+      cmd: npm build
+  - stage:
+      name: Console
+      cmd: echo "Hello World!"
